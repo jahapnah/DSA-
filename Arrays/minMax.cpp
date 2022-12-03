@@ -43,6 +43,6 @@ int main()
         cin >> arr[i];
     }
 
-    cout << "Minimum number is " << getMin(arr, 5) << endl;
-    cout << "Maximum number is " << getMax(arr, 5) << endl;
+    cout << "Minimum number is " << getMin(arr, size) << endl;
+    cout << "Maximum number is " << getMax(arr, size) << endl;
 }
